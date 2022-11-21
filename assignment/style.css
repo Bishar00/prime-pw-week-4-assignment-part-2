@@ -1,4 +1,39 @@
 header{
-    background-color: black;
-    
+    background-color: yellow;
+
+}
+
+.container {
+   width: 600px;
+   border: 1px solid #3333;
+   margin: auto;
+   margin-top:200px;
+  
+}
+
+
+.card {
+    display: flex;
+    flex-direction:column;
+}
+
+
+.card .first-p-tag {
+    background-color: red;
+    text-align: center;
+    font-size: 20px;
+}
+
+.card .first-p-tag::before {
+    content: 'My name is Bishar';
+}
+
+.last-p-tag {
+    background-color: orange;
+    text-align: center;
+    font-size: 20px;
+}
+
+.last-p-tag::before {
+    content: 'And I Drive a Ford Fusion';
 }

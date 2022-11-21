@@ -12,19 +12,20 @@ header{
 }
 
 
-.card {
+.info {
     display: flex;
     flex-direction:column;
 }
 
 
-.card .first-p-tag {
+.info .first-p-tag {
     background-color: red;
     text-align: center;
     font-size: 20px;
+    color: blue;
 }
 
-.card .first-p-tag::before {
+.info .first-p-tag::before {
     content: 'My name is Bishar';
 }
 
@@ -32,6 +33,7 @@ header{
     background-color: orange;
     text-align: center;
     font-size: 20px;
+    color: white;
 }
 
 .last-p-tag::before {
